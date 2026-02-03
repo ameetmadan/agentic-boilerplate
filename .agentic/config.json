@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "codebase": {
+    "language": "typescript",
+    "framework": "node",
+    "entryPoint": "src/index.ts"
+  },
+  "context": {
+    "maxFileSize": 10000,
+    "excludePatterns": [
+      "node_modules/**",
+      "dist/**",
+      "*.log"
+    ],
+    "includeTests": true
+  },
+  "indexing": {
+    "enabled": true,
+    "watchPatterns": ["src/**/*.ts", "tests/**/*.ts"]
+  }
+}
